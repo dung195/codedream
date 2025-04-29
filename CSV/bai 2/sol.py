@@ -19,5 +19,5 @@ def tinh_diem_trung_binh(ten_file):
     except Exception as e:
         print(f"Đã xảy ra lỗi: {e}")
 # Ví dụ sử dụng
-ten_file = 'diem_testcase_5.csv'  # Hoặc thay bằng 'diem_testcase_1.csv', v.v. để test
+ten_file = 'diem_testcase_1.csv'  # Hoặc thay bằng 'diem_testcase_1.csv', v.v. để test
 tinh_diem_trung_binh(ten_file)
