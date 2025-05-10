@@ -1,0 +1,19 @@
+Danh sách học sinh:
+----------------------------------------
+1. Họ tên: Đỗ Gia Hà, Tuổi: 18, Lớp: 8A3
+2. Họ tên: Trần Minh Chi, Tuổi: 13, Lớp: 11A2
+3. Họ tên: Trần Hữu Chi, Tuổi: 18, Lớp: 11C1
+4. Họ tên: Nguyễn Thị Hà, Tuổi: 18, Lớp: 7C2
+5. Họ tên: Lê Hữu Chi, Tuổi: 17, Lớp: 12C3
+6. Họ tên: Đỗ Minh Dũng, Tuổi: 12, Lớp: 7C3
+7. Họ tên: Đỗ Thùy Bình, Tuổi: 14, Lớp: 12A1
+8. Họ tên: Trần Văn Phúc, Tuổi: 12, Lớp: 7A1
+9. Họ tên: Vũ Minh Khoa, Tuổi: 16, Lớp: 12B2
+10. Họ tên: Nguyễn Minh Phúc, Tuổi: 17, Lớp: 10A2
+11. Họ tên: Phạm Ngọc Dũng, Tuổi: 12, Lớp: 8C3
+12. Họ tên: Hoàng Văn Dũng, Tuổi: 15, Lớp: 7C3
+13. Họ tên: Nguyễn Thùy Chi, Tuổi: 14, Lớp: 6C1
+14. Họ tên: Đỗ Gia Nam, Tuổi: 17, Lớp: 11B1
+15. Họ tên: Nguyễn Gia Hà, Tuổi: 18, Lớp: 9C1
+16. Họ tên: Phạm Minh Linh, Tuổi: 13, Lớp: 11A2
+17. Họ tên: Trần Thị Oanh, Tuổi: 18, Lớp: 7A2
