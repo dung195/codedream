@@ -1,9 +1,10 @@
 import csv
 import sys
-sys.stdout=open("diem.out","w",encoding='utf-8')
-def tinh_diem_trung_binh(ten_file):
+
+def tinh_diem_trung_binh(ten_file, output_file):
     try:
-        with open(ten_file, 'r', encoding='utf-8') as f:
+        with open(ten_file, 'r', encoding='utf-8') as f, open(output_file, 'w', encoding='utf-8') as out:
+            sys.stdout = out  # Redirect output to the file
             reader = csv.DictReader(f)
             for row in reader:
                 ho_ten = row['HoTen']
@@ -18,6 +19,11 @@ def tinh_diem_trung_binh(ten_file):
         print(f"File {ten_file} không đúng định dạng cột (HoTen, Toan, Ly, Hoa).")
     except Exception as e:
         print(f"Đã xảy ra lỗi: {e}")
-# Ví dụ sử dụng
-ten_file = 'diem_testcase_1.csv'  # Hoặc thay bằng 'diem_testcase_1.csv', v.v. để test
-tinh_diem_trung_binh(ten_file)
+    finally:
+        sys.stdout = sys.__stdout__  # Reset stdout to default
+
+# Loop through test case files
+for i in range(1, 6):
+    input_file = f'diem_testcase_{i}.csv'
+    output_file = f'0{i}.out'
+    tinh_diem_trung_binh(input_file, output_file)
