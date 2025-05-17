@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Filter "high_salary.xlsx" | ForEach-Object {Rename-Item -Path $_.FullName -NewName "high_salary.out"   New-Item -Path $_.DirectoryName -Name "high_salary.inp" -ItemType File}
